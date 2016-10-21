@@ -137,7 +137,7 @@
         <executions>
           <execution>
             <configuration>
-              <module>com.mycompany.gwt.Module</module>
+              <module>com.example.stockwatcher.StockWatcher</module>
             </configuration>
             <goals>
               <goal>compile</goal>

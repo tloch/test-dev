@@ -32,4 +32,31 @@
       <listener-class>com.example.guestbook.OfyHelper</listener-class>
     </listener>
 <!-- [END Objectify] -->
+
+
+
+
+
+
+
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>com.example.stockwatcher.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/stockwatcher/greet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <!--welcome-file-list>
+    <welcome-file>StockWatcher.html</welcome-file>
+  </welcome-file-list-->
+
+
+
+
+
 </web-app>
