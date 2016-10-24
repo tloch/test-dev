@@ -60,9 +60,9 @@ public class GuestbookImpl extends RemoteServiceServlet
 			.list();
 
 		if (greetings.isEmpty()) {
-			s .= "Guestbook '" + this.escapeHtml(guestbookName) + "' has no messages.";
+			s += "Guestbook '" + this.escapeHtml(guestbookName) + "' has no messages.";
 		} else {
-			s .= "Messages in Guestbook '" + this.escapeHtml(guestbookName) + "':";
+			s += "Messages in Guestbook '" + this.escapeHtml(guestbookName) + "':";
 		// Look at all of our greetings
 			for (Greeting greeting : greetings) {
 				//pageContext.setAttribute("greeting_content", greeting.content);
