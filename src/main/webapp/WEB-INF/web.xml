@@ -57,6 +57,17 @@
 
 
 
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>com.example.gwttest.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/gwttest/greet</url-pattern>
+  </servlet-mapping>
+  
 
 
 </web-app>
