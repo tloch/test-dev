@@ -61,8 +61,7 @@ public class GuestbookClient implements EntryPoint {
 		dialogBox = new DialogBox();
 		dialogBox.setText("Remote Procedure Call");
 		dialogBox.setAnimationEnabled(true);
-
-		closeButton = new Button("Close");
+		final Button closeButton = new Button("Close");
 		// We can set the id of a widget by accessing its Element
 		final Button closeButton.getElement().setId("closeButton");
 		final Label textToServerLabel = new Label();
